@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* Design/Layout element*/
+a:link,a:visited,a:active,a:hover { text-decoration: none;}
+
+#wrapper {
+    padding: 80px 0;
+}
+
+/* Note element*/
+.cssAnim{
+    padding: 15px 0;
+    width:150px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+    background: #ddd;
+    border: #fff 2px solid;
+    transition: all 0.3s linear;
+}
+
+.bgColor {
+    color: #fff;
+    background-color: #000;
+}

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* Design/Layout element*/
+a:link,a:visited,a:active,a:hover { text-decoration: none;}
+
+#wrapper {
+    padding: 80px 0;
+}
+
+/* Note element*/
+.cssAnim{
+    width:300px;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
+    background: #ddd;
+    border: #fff 2px solid;
+    position: relative;
+}
+
+.cssAnim img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    transition: all 0.3s linear;        
+}
+
+.imgScale img{
+    transform: scale(1.5);
+}

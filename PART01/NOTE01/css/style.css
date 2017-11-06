@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* Design/Layout element*/
+a:link,a:visited,a:active,a:hover { text-decoration: none;}
+
+#wrapper {
+    padding: 80px 0;
+}
+
+/* Note element*/
+.fadeBtn{
+    width:300px;
+    height:100px;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 100px;
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+    background: #ddd;
+    border: #fff 2px solid;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #555;
+}
+

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* Design/Layout element*/
+a:link,a:visited,a:active,a:hover { text-decoration: none;}
+
+#wrapper {
+    padding: 80px 0;
+}
+
+/* Note element*/
+.cssAnim1,.cssAnim2{
+    margin: 0 10px;
+    padding: 15px 0;
+    width:150px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+    background: #ddd;
+    border: #fff 2px solid;
+    transition: all 1s ease-in-out;
+}
+
+.rotateX {
+    transform: rotateX(360deg);
+}
+
+.rotateY {
+    transform: rotateY(360deg);
+}
